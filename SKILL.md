@@ -1,5 +1,5 @@
 ---
-name: Audio-Enhancer
+name: audio-enhancer
 description: Clean and enhance dialogue audio in videos while preserving the original picture. Use when asked to tratar, clean, improve, or enhance audio in video files.
 ---
 
