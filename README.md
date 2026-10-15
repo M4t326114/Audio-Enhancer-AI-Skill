@@ -6,7 +6,8 @@ It improves the spoken audio and puts it back into the video while keeping the o
 
 ## What’s included
 
-- `SKILL.md` explains how to use the skill and check the results.
+- `SKILL.md` helps Codex and Claude Code discover the skill.
+- `Audio-Enhancer.md` contains the full workflow, options, and quality checks.
 - `scripts/` contains the video processing and audio enhancement tools.
 
 ## What you need
@@ -14,7 +15,7 @@ It improves the spoken audio and puts it back into the video while keeping the o
 - macOS with Apple Silicon is recommended for faster Sidon processing. CPU processing is also available.
 - Bash, Python 3, `ffmpeg`, and `ffprobe`.
 - For Sidon: Python packages `numpy`, `soundfile`, `torch`, `torchaudio`, and `transformers`.
-- Sidon model files in `modelos/sidon/` at the repository root. See `SKILL.md` for the filenames.
+- Sidon model files in `modelos/sidon/` at the repository root. See `Audio-Enhancer.md` for the filenames.
 - The classic engine also needs SciPy, WPE, and DeepFilterNet3.
 
 The model weights and Python environments are not included. They are large and depend on your machine, so install them separately before running the skill.
@@ -33,7 +34,7 @@ To save the results somewhere else:
 scripts/tratar_audio.sh "/path/to/videos" --out "/path/to/output"
 ```
 
-By default, treated videos are saved in an `Áudio tratado` folder beside the originals. The originals are left untouched. For more options and checks, see `SKILL.md`.
+By default, treated videos are saved in an `Áudio tratado` folder beside the originals. The originals are left untouched. For more options and checks, see `Audio-Enhancer.md`.
 
 ## Credits
 
