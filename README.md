@@ -12,7 +12,7 @@ It improves the spoken audio and puts it back into the video while keeping the o
 
 ## What you need
 
-- macOS with Apple Silicon is recommended for faster Sidon processing. CPU processing is also available.
+- A Pc with dedicated GPU(Nvidia,Apple Silicon). CPU processing is also available.
 - Bash, Python 3, `ffmpeg`, and `ffprobe`.
 - For Sidon: Python packages `numpy`, `soundfile`, `torch`, `torchaudio`, and `transformers`.
 - Sidon model files in `modelos/sidon/` at the repository root. See `Audio-Enhancer.md` for the filenames.
